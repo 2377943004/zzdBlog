@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="iconfont.css">
+    <style>
+        .box{
+            position: relative;
+            width: 1000px;
+            height: 1200px;
+            margin: 0 auto;
+            border:  1px rgb(204,204,204) dashed ;
+            box-shadow: -2px 2px 0px  rgba(204,204,204);
+            overflow: hidden;
+        }
+        .top {
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 270px;
+            margin-bottom: 10px;
+            background-image: url(top.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%; 
+
+            border:  1px rgb(204,204,204) dashed ;
+
+        }
+        .left{
+            float: left;
+            width: 275px;
+            height: 840px;
+            border:  1px rgb(204,204,204) solid ;
+        }
+        
+        .mid{
+            position: relative;
+            float:right;
+            margin: 5px 10px;
+            width: 700px;
+            height: 250px;
+        }
+        
+
+        /* .right{
+            float: right;
+            width: 700px;
+            height: 705px;
+            border:  1px rgb(204,204,204) dashed ;
+        } */
+        .bottom{
+            position: absolute;
+            bottom: 0;
+            float: left;
+            width: 100%;
+            height: 25px;
+            text-align: center;
+            color: rgb(40,105,157);
+            background-color: rgb(218,238,255);
+        }
+        .top>ul {
+            position: absolute;
+            right: 90px;
+            bottom: 15px;
+            padding: 0;
+            margin: 0%;
+            list-style: none;
+        }
+      .daohang li{
+         
+          float: left;
+          font-size: 16px;
+          margin: 0 10px;
+      }
+
+
+
+      .photo{
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 290px;
+      }
+      .about{
+        position: relative;
+          width: 100%;
+          height: 90px;
+          border-top: 3px dashed rgb(0,153,255);
+        
+      }
+      .info{
+          font-size: 14px;
+        margin: 1px 1px 5px 19px;
+      }
+      .news{
+        position: relative;
+          width: 100%;
+          height: 155px;
+          border-top: 3px dashed rgb(0,153,255);
+
+      }
+      .hotnews{
+        position: relative;
+          width: 100%;
+          height: 155px;
+          border-top: 3px dashed rgb(0,153,255);
+
+      }
+      .content{
+          width: 100%;
+          height: 200px;
+          border-top: 3px dashed rgb(0,153,255);
+      }
+
+
+      .left ul{
+          padding: 0px;
+          margin: 1px 0px 0px 0px;
+          list-style: none;
+      }
+      .left ul li{
+          color: rgb(43,82,170);
+          font-size: 13px;
+          line-height: 22px;
+      }
+      
+
+
+
+
+      .fly{
+          float: left;
+      }
+    .border_{
+        border: 1px solid rgb(173,173,173);
+    }
+    .bckgd{
+        float: left;
+        position: absolute;
+        bottom: 0;
+        width: 275px;
+        height: 13px;
+        background-image:url(leftbg.jpg) ;
+        background-repeat: no-repeat;
+        
+    }
+    p{  
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        bottom: 0px;
+        left: 40px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    .photo img{
+        position: absolute;
+        top: -276px;
+        left: 0;
+        float: left;
+        width: 100%;
+        height: 270px;
+
+    }
+    
+    .mid h2{
+        padding: 0%;
+        margin: 0 7px;
+
+        font-weight: 700;
+        border-bottom: 1px dashed rgb(173,173,173);
+        color: rgb(102,41,0);
+    }
+    .mid >span{
+        color: rgb(173,173,173);
+        position: relative;
+        position: absolute;
+        right: 7px;  
+    }
+    /* .mid p{
+        
+        padding: 0;
+        margin: 0;
+        
+        font-size: 12px;
+        line-height: 50px;
+    } */
+    .text{
+        text-indent: 2em;
+        font-size: 14px;
+        margin: 30px 3px;
+    }
+    .fuhao{
+        position: absolute;
+        left: 37px;
+        bottom: 30px;
+        
+        font-size: 15px;
+        
+    }
+    .shuju{
+        color: rgb(255,105,25);
+        position: absolute;
+        left: 37px;
+        bottom: 7px;
+    }
+    .iconfont{
+        margin: 0px 6px 0px 17px;
+        width: 5px;
+        width: 5px;    
+    }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="top">
+            <ul class="daohang">
+                <li>首页</li>
+                <li>日志</li>
+                <li>相册</li>
+                <li>音乐</li>
+                <li>收藏</li>
+                <li>博友</li>
+                <li>关于博主</li>
+            </ul>
+        </div>
+        <div class="left">
+            <div class="photo fly">
+                <div class="bckgd">
+                    <div>
+                        <img src="yf.jpg" alt="">
+                    </div>
+                    <p>关于博主</p>
+                </div>
+            </div>
+            <div class="about fly">
+                <div class="bckgd">
+                    <p>最新文章</p>
+                </div>
+                
+                    <div class="info">姓名：神仙姐姐</div>
+                    <div class="info">QQ：123456789</div>
+                    <div class="info">邮箱：lyf@163.com</div>
+                
+                </div>
+            <div class="news fly">
+                <div class="bckgd">
+                    <p>热门文章</p>
+                </div>
+                <ul>
+                     <li><i class="iconfont icon-note"></i>书籍是人类进步的阶梯</li>
+                     <li><i class="iconfont icon-note"></i>清醒时做事,糊涂时读书，独处时思考</li>
+                     <li><i class="iconfont icon-note"></i>运气就是机会碰到了你的努力</li>
+                     <li><i class="iconfont icon-note"></i>读很多书是为了懂得这世界的复杂</li>
+                     <li><i class="iconfont icon-note"></i>因为读书很难,所以我们才要读书</li>
+                     <li><i class="iconfont icon-note"></i>春风十里,不如读书的你</li>
+                </ul>
+            </div>
+            <div class="hotnews fly">
+                <div class="bckgd">
+                    <p>最新评论</p>
+                </div>
+                <ul>
+                    <li><i class="iconfont icon-note"></i>书籍是人类进步的阶梯</li>
+                    <li><i class="iconfont icon-note"></i>清醒时做事,糊涂时读书，独处时思考</li>
+                    <li><i class="iconfont icon-note"></i>运气就是机会碰到了你的努力</li>
+                    <li><i class="iconfont icon-note"></i>读很多书是为了懂得这世界的复杂</li>
+                    <li><i class="iconfont icon-note"></i>因为读书很难,所以我们才要读书</li>
+                    <li><i class="iconfont icon-note"></i>春风十里,不如读书的你</li>
+                </ul>
+            </div>
+            <div class="content fly">
+                <ul>
+                    <li><i class="iconfont icon-note"></i>书籍是人类进步的阶梯</li>
+                     <li><i class="iconfont icon-note"></i>清醒时做事,糊涂时读书，独处时思考</li>
+                     <li><i class="iconfont icon-note"></i>运气就是机会碰到了你的努力</li>
+                     <li><i class="iconfont icon-note"></i>读很多书是为了懂得这世界的复杂</li>
+                     <li><i class="iconfont icon-note"></i>因为读书很难,所以我们才要读书</li>
+                     <li><i class="iconfont icon-note"></i>春风十里,不如读书的你</li>
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="right"> -->
+            <div class="mid border_">
+                <h2>书籍是人类进步的阶梯</h2>
+                <span>作者：高尔基</span>
+                    
+                    <div class="text">
+                        书在人类的文明史上发挥了不可替代的重要作用。通过书面记载，
+                        语言、文字、图画能够较为完好地保存下来，
+                        并且可以大量印制，方便人类的阅读、学习，有利于人类知识的传承。
+                    </div>
+                    <div class="text">
+                        书籍是人类进步的阶梯，每个人都有属于自己的书屋，或大或小，或充实或贫乏，但是都没有关系，
+                    每一本书都有每一本书存在的意义，它也许是你开始的梦，也许是你最好的朋友，交心的朋友，我喜欢我的书屋，更爱我的梦，
+                    希望你们也可以永远的面对自己的青春，自己的梦想，在自己的书屋里勇敢的拼搏吧!加油! 
+                    </div>
+                    <div class="fuhao">
+                      ··· ···
+                    </div>
+                    <div class="shuju">浏览[1000]评论[20]</div>
+                 
+            </div>
+            <div class="mid border_">
+                <h2>书籍是人类进步的阶梯</h2>
+                <span>作者：高尔基</span>
+                    
+                    <div class="text">
+                        书在人类的文明史上发挥了不可替代的重要作用。通过书面记载，
+                        语言、文字、图画能够较为完好地保存下来，
+                        并且可以大量印制，方便人类的阅读、学习，有利于人类知识的传承。
+                    </div>
+                    <div class="text">
+                        书籍是人类进步的阶梯，每个人都有属于自己的书屋，或大或小，或充实或贫乏，但是都没有关系，
+                    每一本书都有每一本书存在的意义，它也许是你开始的梦，也许是你最好的朋友，交心的朋友，我喜欢我的书屋，更爱我的梦，
+                    希望你们也可以永远的面对自己的青春，自己的梦想，在自己的书屋里勇敢的拼搏吧!加油! 
+                    </div>
+                    <div class="fuhao">
+                      ··· ···
+                    </div>
+                    <div class="shuju">浏览[1000]评论[20]</div>
+            </div>
+            <div class="mid border_">
+                <h2>书籍是人类进步的阶梯</h2>
+                <span>作者：高尔基</span>
+                    
+                    <div class="text">
+                        书在人类的文明史上发挥了不可替代的重要作用。通过书面记载，
+                        语言、文字、图画能够较为完好地保存下来，
+                        并且可以大量印制，方便人类的阅读、学习，有利于人类知识的传承。
+                    </div>
+                    <div class="text">
+                        书籍是人类进步的阶梯，每个人都有属于自己的书屋，或大或小，或充实或贫乏，但是都没有关系，
+                    每一本书都有每一本书存在的意义，它也许是你开始的梦，也许是你最好的朋友，交心的朋友，我喜欢我的书屋，更爱我的梦，
+                    希望你们也可以永远的面对自己的青春，自己的梦想，在自己的书屋里勇敢的拼搏吧!加油! 
+                    </div>
+                    <div class="fuhao">
+                      ··· ···
+                    </div>
+                    <div class="shuju">浏览[1000]评论[20]</div>
+            </div>
+        <!-- </div> -->
+        <div class="bottom">
+            更新时间:2022-05-03 19:40 © ALL Rights Reserved
+        </div>
+    </div>
+</body>
+</html>
